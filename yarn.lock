@@ -7,6 +7,11 @@ dayjs@^1.9.6:
   resolved "https://registry.npm.taobao.org/dayjs/download/dayjs-1.9.6.tgz#6f0c77d76ac1ff63720dd1197e5cb87b67943d70"
   integrity sha1-bwx312rB/2NyDdEZfly4e2eUPXA=
 
+exif-js@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.npm.taobao.org/exif-js/download/exif-js-2.3.0.tgz#9d10819bf571f873813e7640241255ab9ce1a814"
+  integrity sha1-nRCBm/Vx+HOBPnZAJBJVq5zhqBQ=
+
 uview-ui@^1.8.0:
   version "1.8.0"
   resolved "https://registry.npm.taobao.org/uview-ui/download/uview-ui-1.8.0.tgz#54e5c521c616a145a318d3ec64f16ec8dd9ff292"

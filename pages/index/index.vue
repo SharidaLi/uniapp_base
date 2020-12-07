@@ -11,8 +11,8 @@
 			</navigator>
 		</u-button>
 		<u-button>
-			<navigator open-type="navigate" url="/pages/components/iconfont">
-				iconfont
+			<navigator open-type="navigate" url="/pages/components/upload">
+				upload
 			</navigator>
 		</u-button>
 	</view>

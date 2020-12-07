@@ -10,7 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "async-validator": "^3.5.1",
     "dayjs": "^1.9.6",
+    "exif-js": "^2.3.0",
     "uview-ui": "^1.8.0"
   }
 }

@@ -17,6 +17,11 @@
 		"style": {
 			"navigationBarTitleText": "搜索下拉"
 		}
+	},{
+		"path": "pages/components/upload",
+		"style": {
+			"navigationBarTitleText": "upload"
+		}
 	}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
