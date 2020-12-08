@@ -36,8 +36,13 @@
 			"style": {
 				"navigationBarTitleText": "模版页面"
 			}
+		},
+		{
+			"path": "pages/componentsDemo/upload",
+			"style": {
+				"navigationBarTitleText": "upload"
+			}
 		}
-
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

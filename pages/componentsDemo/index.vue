@@ -1,13 +1,18 @@
 <template>
 	<view>
 		<u-button>
-			<navigator open-type="navigate" url="/pages/components/iconfont">
+			<navigator open-type="navigate" url="/pages/componentsDemo/iconfont">
 				iconfont
 			</navigator>
 		</u-button>
 		<u-button>
-			<navigator open-type="navigate" url="/pages/components/select">
+			<navigator open-type="navigate" url="/pages/componentsDemo/select">
 				select
+			</navigator>
+		</u-button>
+		<u-button>
+			<navigator open-type="navigate" url="/pages/componentsDemo/upload">
+				upload
 			</navigator>
 		</u-button>
 	</view>
