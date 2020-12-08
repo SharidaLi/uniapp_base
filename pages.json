@@ -3,30 +3,77 @@
 		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
 	},
 	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "首页"
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "杂七杂八"
+			}
+		}, {
+			"path": "pages/componentsDemo/iconfont",
+			"style": {
+				"navigationBarTitleText": "iconfont"
+			}
+		},
+		{
+			"path": "pages/componentsDemo/select",
+			"style": {
+				"navigationBarTitleText": "搜索下拉"
+			}
+		},
+		{
+			"path": "pages/componentsDemo/index",
+			"style": {
+				"navigationBarTitleText": "组件页面"
+			}
+		},
+		{
+			"path": "pages/sdkDemo/index",
+			"style": {
+				"navigationBarTitleText": "sdkDemo"
+			}
+		},
+		{
+			"path": "pages/templateDemo/index",
+			"style": {
+				"navigationBarTitleText": "模版页面"
+			}
 		}
-	},{
-		"path": "pages/components/iconfont",
-		"style": {
-			"navigationBarTitleText": "iconfont"
-		}
-	},{
-		"path": "pages/components/select",
-		"style": {
-			"navigationBarTitleText": "搜索下拉"
-		}
-	},{
-		"path": "pages/components/upload",
-		"style": {
-			"navigationBarTitleText": "upload"
-		}
-	}],
+
+	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#444444",
+		"selectedColor": "#FF80AB",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/icon/tab/icon_home.png",
+				"selectedIconPath": "static/icon/tab/icon_home_c.png",
+				"text": "乱七八糟"
+			},
+			{
+				"pagePath": "pages/componentsDemo/index",
+				"iconPath": "static/icon/tab/icon_wode.png",
+				"selectedIconPath": "static/icon/tab/icon_wode_c.png",
+				"text": "组件示例"
+			},
+			{
+				"pagePath": "pages/sdkDemo/index",
+				"iconPath": "static/icon/tab/icon_TA.png",
+				"selectedIconPath": "static/icon/tab/icon_TA_c.png",
+				"text": "SDK示例"
+			},
+			{
+				"pagePath": "pages/templateDemo/index",
+				"iconPath": "static/icon/tab/icon_Template.png",
+				"selectedIconPath": "static/icon/tab/icon_Template_c.png",
+				"text": "模板页面"
+			}
+		]
 	}
 }
